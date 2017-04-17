@@ -9,7 +9,7 @@ public class Metode {
 		sc.close();
 	}
 
-	static void comptadorDeParells(int n) {
+	static void comptadorDeParellsV3(int n) {
 		int count = 0;
 		for (int countParell = n; countParell >= 0; countParell--) {
 			if (countParell % 2 == 0)
